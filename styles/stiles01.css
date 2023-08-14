@@ -1,6 +1,7 @@
 body{
-   color: rgb(127, 180, 255);
+   color: rgb(71, 77, 86);
    background: linear-gradient(to right, rgb(249, 168, 212), rgb(216, 180, 254), rgb(129, 140, 248));
+   font-size: 1.2rem;
 }
 footer{
    color: black;

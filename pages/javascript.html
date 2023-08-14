@@ -23,6 +23,11 @@
 
     <section class="w3-container">
         <p>section</p>
+        <!-- put the 100th vertical pixel at the top of the window -->
+        <button onclick=scrolear()>click to scroll to page bottom</button>
+        <button onclick=alerta()>debe salir un alert</button>
+
+
         <article class="w3-container">
             <p>article</p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat ipsa sed laborum aliquid quibusdam illo
@@ -40,6 +45,17 @@
                 Voluptates excepturi dicta hic quod minima a illo beatae repudiandae et corrupti minus nihil distinctio
                 porro at, iusto, quibusdam accusamus, enim officiis suscipit unde necessitatibus velit dolor. Aut,
                 accusantium doloribus?
+            </p>
+            <h2>Copy machine in JS</h2>
+            <form>
+                <label>array</label>
+                <input>
+                <label>cant</label>
+                <input type="number">
+                <button onclick=copyMachine()>Copiar array</button>
+            </form>
+            <p id="resultado">
+                El resultado
             </p>
             <p>Eos, nostrum autem harum suscipit voluptatibus eaque consequatur. Doloribus porro esse corporis nihil
                 beatae consequatur suscipit incidunt cum, veritatis accusamus similique laborum dolore maiores! Suscipit
@@ -189,6 +205,9 @@
         <p>Author: Diego</p>
         <p><a href="mailto:db@example.com">db@example.com</a></p>
     </footer>
+    
+    <script src="/js/javascript.js"></script>
+
 </body>
 
 </html>
