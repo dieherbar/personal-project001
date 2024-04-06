@@ -20,5 +20,7 @@ function copyMachine(arr, num) {
     }
     return newArr;
   }
-  document.getElementById("resultado").innerHTML("hola"); //.copyMachine([true, false, true], 2);
-  console.log(copyMachine([true, false, true], 2));
+  const array = document.getElementById("entrada01").value;
+  const numero = document.getElementById("entrada02").value;
+  document.getElementById("resultado").innerHTML= copyMachine(["a","b","c"], 5);
+  console.log((array, numero));

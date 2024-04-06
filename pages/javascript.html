@@ -49,13 +49,14 @@
             <h2>Copy machine in JS</h2>
             <form>
                 <label>array</label>
-                <input>
+                <input id="entrada01" type="text">
                 <label>cant</label>
-                <input type="number">
-                <button onclick=copyMachine()>Copiar array</button>
+                <input id="entrada02" type="number">
+                <button onclick=copyMachine([a,b,c],5)>Copiar array</button>
             </form>
+            <h3>El resultado:</h3>
             <p id="resultado">
-                El resultado
+                
             </p>
             <p>Eos, nostrum autem harum suscipit voluptatibus eaque consequatur. Doloribus porro esse corporis nihil
                 beatae consequatur suscipit incidunt cum, veritatis accusamus similique laborum dolore maiores! Suscipit
@@ -205,7 +206,7 @@
         <p>Author: Diego</p>
         <p><a href="mailto:db@example.com">db@example.com</a></p>
     </footer>
-    
+
     <script src="/js/javascript.js"></script>
 
 </body>
