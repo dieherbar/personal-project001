@@ -19,13 +19,15 @@
         <a href="jquery.html">jQuery</a>
     </nav>
 
+    <button class="btnTop" onclick="scrollToTop()" id="toTopBtn" title="Go to top">Back to Top</button>
+
     <h1>JavaScript page</h1>
 
     <section class="w3-container">
         <p>section</p>
         <!-- put the 100th vertical pixel at the top of the window -->
-        <button onclick=scrolear()>click to scroll to page bottom</button>
-        <button onclick=alerta()>debe salir un alert</button>
+        <button class="btn" onclick=scrollDown()>Click to scroll to page bottom</button>
+        <button class="btn" onclick=alertTest()>An alert is displayed</button>
 
 
         <article class="w3-container">
@@ -52,7 +54,7 @@
                 <input id="entrada01" type="text">
                 <label>cant</label>
                 <input id="entrada02" type="number">
-                <button onclick=copyMachine([a,b,c],5)>Copiar array</button>
+                <button class="btn" onclick=copyMachine([a,b,c],5)>Copiar array</button>
             </form>
             <h3>El resultado:</h3>
             <p id="resultado">
