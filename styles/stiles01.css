@@ -60,7 +60,7 @@ body {
 
 .btn-Top svg {
    display: block;
-   vertical-align: middle;
+   /* vertical-align: middle; */
 }
 
 .btnTop [hidden] {
